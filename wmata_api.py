@@ -2,12 +2,13 @@ import json
 import requests
 from flask import Flask
 
-# API endpoint URL's and access keys
+# Original API endpoint URL's and access keys
 #WMATA_API_KEY = ""
 #INCIDENTS_URL = "https://api.wmata.com/Incidents.svc/json/ElevatorIncidents"
 #headers = {"api_key": WMATA_API_KEY, 'Accept': '*/*'}
 
-# Due to WMATA API Endpoint issue - Testing with mocked the WMATA API
+# Due to WMATA API Endpoint issue - Testing was completed with a mock WMATA API. 
+# Removed URL
 INCIDENTS_URL = "https://jhu-intropython-mod10.replit.app/"
 
 
