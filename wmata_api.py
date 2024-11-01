@@ -9,7 +9,7 @@ from flask import Flask
 
 # Due to WMATA API Endpoint issue - Testing was completed with a mock WMATA API. 
 # Removed URL
-INCIDENTS_URL = "https://jhu-intropython-mod10.replit.app/"
+INCIDENTS_URL = ""
 
 
 ################################################################################
